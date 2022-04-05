@@ -14,7 +14,8 @@ sans-serif;
 // styling scroll btn
 .mainbtnstyle {
     font-size: 20px;
-    padding: 10px 40px;
+    padding:1rem 3rem;
+    margin: 0rem 0rem 0rem 0.5rem;
     color: $maincolor;
     font-family: $mainfont;
     background-color: transparent !important;
@@ -34,6 +35,8 @@ sans-serif;
     background-color: transparent !important;
     border: 1px solid $secondcolor;
     color: $secondcolor;
+    margin: 0rem 0rem 0rem 0.5rem;
+
 
 }
 
@@ -131,14 +134,17 @@ body {
     overflow-x: hidden;
     font-family: Arial, Helvetica, sans-serif;
 }
-
+.teamicon
+{
+    text-align: center;
+}
 .teamicon i {
-    padding: 8px;
+    padding: 10px;
     font-size: 20px;
 }
 
 .teamicon a {
-    color: gray;
+    color: #fff;
 }
 
 #team,
@@ -177,4 +183,10 @@ footer {
     text-align: center;
     width: 100%;
     transition: all 1s ease-in-out;
+}
+.fa-ul li{
+    padding: 10px 0px !important;
+}
+.teamicon a{
+
 }
