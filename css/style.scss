@@ -1,0 +1,180 @@
+$maincolor :#ff3b30;
+$secondcolor:#1fb5f6;
+$mainfont:'Segoe UI',
+Tahoma,
+Geneva,
+Verdana,
+sans-serif;
+
+.navbar {
+    background-color: #ffffff;
+    color: black;
+}
+
+// styling scroll btn
+.mainbtnstyle {
+    font-size: 20px;
+    padding: 10px 40px;
+    color: $maincolor;
+    font-family: $mainfont;
+    background-color: transparent !important;
+    border: 1px solid $maincolor;
+}
+
+.mainbtnstyle:hover {
+    color: white;
+    background-color: $maincolor !important;
+    border: 1px solid $maincolor;
+}
+
+// styling scroll btn
+
+.secondbtnstyle {
+    @extend .mainbtnstyle;
+    background-color: transparent !important;
+    border: 1px solid $secondcolor;
+    color: $secondcolor;
+
+}
+
+.secondbtnstyle:hover {
+    color: white;
+    background-color: $secondcolor !important;
+    border: 1px solid $secondcolor;
+}
+
+header {
+    height: 100vh;
+    background-image: url(../images/rm373batch2-09.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    font-family: $mainfont;
+}
+
+.headerdata {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sectionhead h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+}
+
+.sectionhead div {
+    width: 70px;
+    background-color: $secondcolor;
+    height: 2px;
+    margin: auto;
+}
+
+.sectionhead h2,
+.footerheade h2 {
+    padding: 20px 0px 5px;
+}
+
+.secondexplore {
+    background-color: #f1faff;
+}
+
+.carousel-item img {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+
+.brd {
+    width: 70px;
+    background-color: $secondcolor;
+    height: 2px;
+    margin: auto;
+}
+
+.footerbrd {
+    width: 70px;
+    background-color: $secondcolor;
+    height: 2px;
+    // text-align: start !important;
+}
+
+.signupsection {
+    background-image: url(../images/17973908.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#pricing {
+    background-color: #f1faff;
+
+}
+
+.pricetype {
+    background-color: white !important;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: $mainfont;
+}
+
+.pricetype h6 {
+    color: $secondcolor;
+}
+
+.pricetype .btn:hover {
+    color: white !important;
+}
+
+body {
+    // height: 5000px;
+    overflow-x: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.teamicon i {
+    padding: 8px;
+    font-size: 20px;
+}
+
+.teamicon a {
+    color: gray;
+}
+
+#team,
+#trusted {
+    background-color: #f1faff;
+}
+
+.footerheade div {
+    width: 70px;
+    background-color: $secondcolor;
+    height: 2px;
+}
+
+footer {
+    background-color: #3f5267;
+    color: #fff;
+}
+
+.fa-ul li {
+    font-size: 20px;
+
+}
+
+.scrolltopbtn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 999;
+    display: none;
+    border-radius: 50%;
+}
+
+.navbar {
+    z-index: 55;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    transition: all 1s ease-in-out;
+}

@@ -1,0 +1,171 @@
+.navbar {
+  background-color: #ffffff;
+  color: black;
+}
+
+.mainbtnstyle, .secondbtnstyle {
+  font-size: 20px;
+  padding: 10px 40px;
+  color: #ff3b30;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: transparent !important;
+  border: 1px solid #ff3b30;
+}
+
+.mainbtnstyle:hover, .secondbtnstyle:hover {
+  color: white;
+  background-color: #ff3b30 !important;
+  border: 1px solid #ff3b30;
+}
+
+.secondbtnstyle {
+  background-color: transparent !important;
+  border: 1px solid #1fb5f6;
+  color: #1fb5f6;
+}
+
+.secondbtnstyle:hover {
+  color: white;
+  background-color: #1fb5f6 !important;
+  border: 1px solid #1fb5f6;
+}
+
+header {
+  height: 100vh;
+  background-image: url(../images/rm373batch2-09.jpg);
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.headerdata {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.sectionhead h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 35px;
+}
+
+.sectionhead div {
+  width: 70px;
+  background-color: #1fb5f6;
+  height: 2px;
+  margin: auto;
+}
+
+.sectionhead h2,
+.footerheade h2 {
+  padding: 20px 0px 5px;
+}
+
+.secondexplore {
+  background-color: #f1faff;
+}
+
+.carousel-item img {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+}
+
+.brd {
+  width: 70px;
+  background-color: #1fb5f6;
+  height: 2px;
+  margin: auto;
+}
+
+.footerbrd {
+  width: 70px;
+  background-color: #1fb5f6;
+  height: 2px;
+}
+
+.signupsection {
+  background-image: url(../images/17973908.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#pricing {
+  background-color: #f1faff;
+}
+
+.pricetype {
+  background-color: white !important;
+  padding: 10px;
+  border-radius: 10px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.pricetype h6 {
+  color: #1fb5f6;
+}
+
+.pricetype .btn:hover {
+  color: white !important;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.teamicon i {
+  padding: 8px;
+  font-size: 20px;
+}
+
+.teamicon a {
+  color: gray;
+}
+
+#team,
+#trusted {
+  background-color: #f1faff;
+}
+
+.footerheade div {
+  width: 70px;
+  background-color: #1fb5f6;
+  height: 2px;
+}
+
+footer {
+  background-color: #3f5267;
+  color: #fff;
+}
+
+.fa-ul li {
+  font-size: 20px;
+}
+
+.scrolltopbtn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 999;
+  display: none;
+  border-radius: 50%;
+}
+
+.navbar {
+  z-index: 55;
+  position: fixed;
+  text-align: center;
+  width: 100%;
+  -webkit-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+}
+/*# sourceMappingURL=style.css.map */
